@@ -1,6 +1,5 @@
 const express = require('express');
 const pg = require('pg');
-const bodyParser = require('body-parser');
 const securePassword = require('secure-password');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken')

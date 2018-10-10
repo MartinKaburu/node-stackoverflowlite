@@ -2,7 +2,6 @@ const express = require('express');
 const pg = require('pg')
 const jwt = require('jsonwebtoken')
 
-const config = require('./../../config')
 
 const router = express.Router();
 const dbURI = 'postgres://martinmuguna:@localhost:5432//usr/local/var/postgres/node-stackoverflowlite'
