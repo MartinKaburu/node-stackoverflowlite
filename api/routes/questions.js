@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken')
 
 
 const router = express.Router();
-const dbURI = 'postgres://martinmuguna:@localhost:5432//usr/local/var/postgres/node-stackoverflowlite'
+const dbURI = process.env.dbURI;
 
 
 //connect to db
